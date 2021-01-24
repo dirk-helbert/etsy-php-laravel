@@ -8,9 +8,15 @@
             "email": "evgeni.nurkov@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:dirk-helbert/oauth1-etsy"
+        }
+    ],
     "require": {
-        "gentor/oauth1-etsy": "^1.0.4",
-        "illuminate/session": "^5.3"
+        "gentor/oauth1-etsy": "dev-master",
+        "illuminate/session": "~5|~6|~7|~8"
     },
     "autoload": {
         "psr-4": {
